@@ -28,3 +28,49 @@
 
 // DOCUMENT READY FUNCTION
 
+var userChoice = "";
+console.log(userChoice);
+
+var computerChoice = "";
+console.log(computerChoice);
+
+var winner = "";
+console.log(winner);
+
+var Choices = ["rock", "paper", "scissors"];
+console.log(Choices)
+$( document ).ready(function() {
+  
+        $("button").click(function(){
+                
+               var randomindex = Math.floor(Math.random() * Choices.length);
+               var userinput = $("#User_input").val()
+                console.log( randomindex)
+              
+                
+                
+                
+              
+        });
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+});

@@ -1,6 +1,9 @@
 
 .container{text-align: center;}
-}
 
-body{background-image: url("s3.amazonaws.com/wootsaleimages/Rock_Paper_Scissors4xeDetail.png");
+
+body{background-image: url("http://s3.amazonaws.com/wootsaleimages/Rock_Paper_Scissors4xeDetail.png");
+color:white;}
+
+#User_input{color:black;
 }
